@@ -21,6 +21,31 @@ const NavBar = () => {
               Home
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/dashboard" exact>
+              Dashboard
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/posts" exact>
+              Posts
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/albums" exact>
+              Album
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/todos" exact>
+              To Do
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/users" exact>
+              Users
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </React.Fragment>
